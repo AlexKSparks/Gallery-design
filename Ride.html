@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=utf-8>
+    <title>Sparks Portfolio</title>
+    <meta content="author" name="Alex">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Stoke" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script>
+    $(document).ready(function(){
+        $(".Cymbal").hover(function(){
+            $(this).css("background-color", "rgba(68, 68, 68, 0.5)")
+                    .fadeIn(500);
+        }, function(){
+            $(this).css("background-color", "#444");
+        });
+    });
+    </script>
+
+</head>
+    <body>
+        <header>
+            <h1>Cymbal City</h1>
+
+        </header>
+        
+        <a href="index.html"><h2 id="sub"><span class="icon-home3"></span> Home</h2></a>
+       
+        
+            <h2>22" Zildjian ZHT Ride Cymbal</h2>
+            
+        <div id="subcontent"><img id="imgsub" src="Images/Ride.jpg" alt="Ride Cymbal">
+        <p id="asd">Premiere quality ride cymbal. Lightly used, great for jazz or blues. Light tin sound with deep undertones</p>
+        <h2>$350</h2>
+        </div>
+        
+    </body>
+</html>

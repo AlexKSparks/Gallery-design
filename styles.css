@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ep4p7');
+  src:  url('fonts/icomoon.eot?ep4p7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ep4p7') format('truetype'),
+    url('fonts/icomoon.woff?ep4p7') format('woff'),
+    url('fonts/icomoon.svg?ep4p7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cheveron-left:before {
+  content: "\e900";
+}
+.icon-home:before {
+  content: "\e901";
+}
+.icon-view-show:before {
+  content: "\e903";
+}
+.icon-home3:before {
+  content: "\e902";
+}
+
+/*Content*/
+
+header
+{
+    font-family: 'Stoke', serif;
+    text-align: center;
+    color: #ff0000;
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+img
+{
+    width: 50%;
+    margin-right: 15%;
+    margin-top: 50px;   
+    float:left;    
+}
+#preview
+{
+    display: none;
+}
+.Cymbal:hover #preview
+{
+    display: block;
+    margin-bottom: 0;
+    margin-top: 30%
+    
+}
+.wrapper 
+{
+  display: block;
+}
+
+.Cymbal
+{
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  font-size: 125%;
+  margin: 1em;
+  text-align: center;
+    position: relative;
+    overflow: auto;
+}
+.Price
+{
+    color: red;
+    font-size: 200%;
+    text-align: right;
+    display: flex;
+    margin-top: 40%;
+    margin-left: 20%;
+}
+/*sub-page*/
+#sub
+{
+    text-align: left;
+    font-size: 1.25em;
+    color: #444;
+    text-decoration: none;
+}
+#imgsub
+{
+    width: 100%;
+    margin:0;
+}
+#subcontent
+{
+    background-color: #444;
+    color:white;
+/*    padding: 10%;*/
+    overflow: auto;
+    position: relative;
+}
+
+#subcontent>h2
+{
+    color: red;
+    margin-bottom: 0;
+}
+
+/*Tablet*/
+@media (min-width: 600px)
+{
+    .wrapper 
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        position: center;
+    }
+    #imgsub
+    {
+        width: 75%;
+        margin-left:12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 10%
+    }
+    asd
+    {
+      margin-top: 10%;
+    }
+
+}
+
+/*Desktop*/
+@media (min-width: 850px)
+{
+    .wrapper 
+    {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+         #imgsub
+    {
+        width: 30%;
+        margin:0;
+        
+    }   
+    #subcontent>p
+    {
+        padding-top: 20%
+    }
+}
+

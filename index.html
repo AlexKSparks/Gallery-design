@@ -6,31 +6,52 @@
     <meta content="author" name="Alex">
     <meta name= "viewport" content= "width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Stoke" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Stoke" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script>
+    $(document).ready(function(){
+        $(".Cymbal").hover(function(){
+            $(this).css("background-color", "rgba(68, 68, 68, 0.5)")
+                    .fadeIn(500);
+        }, function(){
+            $(this).css("background-color", "#444");
+        });
+    });
+    </script>
+
 </head>
     <body>
         <header>
-            <h1>Alex Sparks</h1>
-        <ul class="nav">
+            <h1>Cymbal City</h1>
 
-            <li><a href="index.html"><span class="icon-home3"></span>     Projects</a></li>
-            <li><a href="about.html"><span class="icon-user"></span>    About</a></li>
-            </ul>
         </header>
         
-        <h2>Projects</h2>
-        <p>Welcome to my portfolio site!</p>
+        <h2>Available Cymbals</h2>
        
         
         <div class="wrapper">
-        <div class="project 1"><span class="icon-stats-dots"></span>  Project example #1</div>
-        <div class="project 2"><span class="icon-stats-dots"></span>  Project example #2</div>
-        <div class="project 3"><span class="icon-cog"></span>  Project example #3</div>
-        <div class="project 4"><span class="icon-cog"></span>  Project example #4</div>
-        <div class="project 5"><span class="icon-envelop"></span>  Project example #5</div>
-        <div class="project 6"><span class="icon-envelop"></span>  Project example #6</div>
+        <a href="Ride.html"><div class="Cymbal 1">22" Zildjian ZHT Ride Cymbal<br/>
+            <img src="Images/Ride.jpg" alt="Ride Cymbal"><div class="Price 1">$325</div><div id="preview">Quick View</div>
+            </div></a>
+            
+        <div class="Cymbal 2">18" Zildjian ZXT Crash Cymbal<br/>
+            <img src="Images/ZXT.jpg" alt="Crash Cymbal"><div class="Price 1">$150</div><div id="preview">Quick View</div></div>
+            
+        <div class="Cymbal 3">16" Zildjian ZBT Crash Cymbal<br/>
+            <img src="Images/ZBT.jpg" alt="Crash Cymbal"><div class="Price 1">$249</div><div id="preview">Quick View</div></div>
+            
+        <div class="Cymbal 4">16" Sabian Xs Crash Cymbal<br/>
+            <img src="Images/Xs.jpg" alt="Crash Cymbal"><div class="Price 1">$125</div><div id="preview">Quick View</div></div>
+            
+        <div class="Cymbal 5">10" Sabian Xs Splash Cymbal<br/>
+            <img src="Images/Splash.jpg" alt="Splash Cymbal"><div class="Price 1">$60</div><div id="preview">Quick View</div></div>
+            
+        <div class="Cymbal 6">14" Sabian Xs High Hat Top<br/>
+            <img src="Images/HighTop.jpg" alt="Top High Hat Cymbal"><div class="Price 1">$80</div><div id="preview">Quick View</div></div>
+            
+        <div class="Cymbal 6">14" Sabian Xs High Hat Bottom<br/>
+            <img src="Images/HighBot.jpg" alt="Bottom High Hat Cymbal"><div class="Price 1">$80</div><div id="preview">Quick View</div></div>   
         </div>
         
     </body>
