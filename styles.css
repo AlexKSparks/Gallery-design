@@ -1,14 +1,13 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ep4p7');
-  src:  url('fonts/icomoon.eot?ep4p7#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ep4p7') format('truetype'),
-    url('fonts/icomoon.woff?ep4p7') format('woff'),
-    url('fonts/icomoon.svg?ep4p7#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?o175wb');
+  src:  url('fonts/icomoon.eot?o175wb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?o175wb') format('truetype'),
+    url('fonts/icomoon.woff?o175wb') format('woff'),
+    url('fonts/icomoon.svg?o175wb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -18,23 +17,24 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-cheveron-left:before {
-  content: "\e900";
-}
-.icon-home:before {
-  content: "\e901";
-}
-.icon-view-show:before {
-  content: "\e903";
 }
 .icon-home3:before {
   content: "\e902";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
 }
 
 /*Content*/
